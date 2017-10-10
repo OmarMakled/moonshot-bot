@@ -1,0 +1,28 @@
+{
+  "name": "fb-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "mocha ./spec"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "bulma": "^0.5.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "^4.0.0",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "mongoose": "^4.12.1",
+    "morgan": "~1.8.1",
+    "request": "^2.83.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  }
+}
